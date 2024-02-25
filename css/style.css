@@ -1,0 +1,147 @@
+
+
+.fontHelvatica, body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: BreakingBad;
+    src: url(/font/Breaking\ Bad.ttf);
+}
+
+.fontBreakingBad {
+    font-family: BreakingBad;
+}
+
+/*  Pagina principal ********/
+
+.bbfondo{
+    background: url(../img/fondo.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.poster{
+    border:10px outset brown;
+    border-radius: 22px;
+    width: 700px;
+    height: 300px;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+.slogan{
+    color:white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+
+/* Pagina formulario ********/
+
+.shotInput{
+    width: 45px;
+}
+
+#formulario p{
+    width: auto;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: rgba(240, 248, 255, 0.342);
+}
+
+#formulario p span{
+    font-size: 10px;
+    color: rgb(165, 6, 6);
+}
+
+#formulario p input, textarea, select{
+    margin: 4px 0;
+}
+
+
+
+/* Pagina Tabla ********/
+
+.tabla img{
+    width: 40px;
+    height: 40px;
+}
+
+.bgverde{
+    background-color: #0c3e11;
+    text-align: center;
+}
+
+.tabla {
+    padding: 0px;
+    margin: 20px auto;
+    background-color: #2B2C24;
+    font-weight:bolder;
+    font-size: 18px;
+    text-align: center;
+    color: #2B2C24;
+}
+
+.tabla tr td{
+    width: 50px;
+    height: 40px;
+    border: 2px solid #2B2C24; 
+}
+
+.tabla tr td p{
+    font-size: 8px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#Ha img{
+    height: 88px;
+    width: 52px;
+}
+
+/* colores de la tabla */
+.verdeclaro{
+    background-color: #a6c51e;
+}
+
+.verdemuyclaro{
+    background-color: #abbd5d;
+}
+
+.violeta{
+    background-color: #856FA1;
+}
+
+.blanco{
+    background-color: #C4C9A8;
+}
+
+.gris{
+    background-color: #9FA686;
+}
+
+.verdeoscuro{
+    background-color: #6B8013;
+}
+
+.verdemuyoscuro{
+    background-color: #556121;
+}
+
+.grisoscuro{
+    background-color: #545c33;
+}
+
+.verdesemiclaro{
+    background-color: #98ac37;
+}
+
+.amarillo{
+    background-color: #B2B328;
+}

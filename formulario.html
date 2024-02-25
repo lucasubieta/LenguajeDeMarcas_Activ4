@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">    
+    <title>Formulario</title>
+</head>
+
+<body class="bbfondo">
+    
+    <form id="formulario" name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+        <fieldset>
+            <legend> <p> Breaking Bad - Que comience el juego! </p> </legend>
+            <fieldset>
+                    <p>Nombre:  <span>(*)</span>  <br>
+                        <input type="text" name="nombre" required placeholder="Indica tu nombre">
+                    </p>
+                    <p>Apellidos: <span>(*)</span><br>
+                        <input type="text" name="apellidos" required placeholder="Indica tus apellidos">
+                    </p>
+                    <p>DNI: <br>
+                        <input type="text" name="apellidos" placeholder="Número documento">
+                    </p>
+                    <p>Email: <span>(*)</span> <br>
+                        <input type="email" name="mail" required placeholder="correo@ejemplo.com">
+                    </p>
+                    <p>Sexo:<br>
+                        <input type="radio" name="hm" value="h"> Hombre 
+                        <input type="radio" name="hm" value="m"> Mujer
+                    </p>
+                    <p>Fecha Nacimiento: <br>
+                        <input type="date" name="nacimiento" >
+                    </p>
+
+                    <p>Dirección: <br>
+                        <input type="text" name="calle" placeholder="Calle">
+                        <input type="text" name="numero" class="shotInput" placeholder="Núm.">
+                        <input type="text" name="piso" class="shotInput" placeholder="Piso">
+                        <input type="text" name="cp" class="shotInput" placeholder="C.P.">
+                        <input type="text" name="ciudad" placeholder="Ciudad">
+                    </p>
+
+                    <p>Seleccione su personaje: <br>
+                        <select name="SistemasOperativos" >
+                            <option value="1">Jessie Pinkman</option>
+                            <option value="2">Walter White</option>
+                            <option value="3">Gustavo Fring</option>
+                            <option value="4">Pollos Hermanos</option>
+                            <option value="4">Otros personajes</option>
+                        </select>
+                    </p>
+                    <p>¿Desea adjuntar un archivo?: <br>
+                        <input type="file" name="adjuntar" value="Adjuntar Archivos" accept=".pdf, .png" multiple>
+                    </p>
+                    <p>¿Algún comentario extra? <br>
+                        <textarea name="comentarios" cols="25" rows="4" minlength="5" maxlength="240" 
+              placeholder="Escribe aquí los comentarios"></textarea>
+                    </p>
+            </fieldset>
+            <br>
+            <input type= "submit" value="Enviar por correo a Raúl">
+            <input type="reset" value="Limpiar formulario">
+    
+        </fieldset>
+    </form>
+</body>
+</html>
